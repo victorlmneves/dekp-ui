@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Madera;
+  src: url(/assets/yello/fonts/MaderaWebforYelloRegular.woff2) format("woff2"),
+    url(/assets/yello/fonts/MaderaWebforYelloRegular.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Madera;
+  src: url(/assets/yello/fonts/MaderaWebforYellomedium.woff2) format("woff2"),
+    url(/assets/yello/fonts/MaderaWebforYellomedium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Madera;
+  src: url(/assets/yello/fonts/MaderaWebforYelloBold.woff2) format("woff2"),
+    url(/assets/yello/fonts/MaderaWebforYelloBold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Madera";
+}
