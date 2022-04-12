@@ -26,3 +26,6 @@ docs/.vuepress/.*
 *.njsproj
 *.sln
 *.sw?
+
+# Style-Dictionary builds
+styleDictionary/build/
