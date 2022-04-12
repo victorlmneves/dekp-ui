@@ -1,0 +1,20 @@
+button,
+input[type='submit'],
+input[type='button'] {
+    font: inherit;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    appearance: none;
+    touch-action: manipulation;
+
+    &:focus,
+    &:hover {
+        outline: none;
+        text-decoration: none;
+    }
+}

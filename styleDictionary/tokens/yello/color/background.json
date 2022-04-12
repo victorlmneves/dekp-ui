@@ -1,0 +1,52 @@
+{
+    "col": {
+        "background": {
+            "default": {
+                "value": "{col.base.grey.100.value}",
+                "type": "color"
+            },
+            "main": {
+                "value": "{col.base.white.value}",
+                "type": "color"
+            },
+            "dark": {
+                "value": "{col.base.black.value}",
+                "type": "color"
+            },
+            "emphasized": {
+                "value": "{col.base.eyecatcher.general.value}",
+                "type": "color"
+            },
+            "brand": {
+                "value": "{col.brand.value}",
+                "type": "color"
+            },
+            "button": {
+                "default": {
+                    "value": "{col.base.azure.500.value}",
+                    "type": "color"
+                },
+                "active": {
+                    "value": "{col.base.azure.600.value}",
+                    "type": "color"
+                },
+                "disabled": {
+                    "value": "{col.base.azure.100.value}",
+                    "type": "color"
+                }
+            },
+            "alert": {
+                "value": "{col.base.error.value}",
+                "type": "color"
+            },
+            "warn": {
+                "value": "{col.base.warn.value}",
+                "type": "color"
+            },
+            "success": {
+                "value": "{col.base.success.value}",
+                "type": "color"
+            }
+        }
+    }
+}

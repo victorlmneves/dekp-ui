@@ -1,0 +1,34 @@
+@use 'sass:map';
+
+$z-max: 2147483647; // max: https://stackoverflow.com/a/25461690
+
+@function z-index($val: 'zero', $below: 1) {
+    $index-map: (
+        zero: 0,
+        xxs: 100,
+        xs: 500,
+        s: 1000,
+        m: 2000,
+        l: 5000,
+        stickybot: 6000,
+        xl: 10000,
+        offcanvas: 11000,
+        xxl: 20000,
+        callout: $z-max - 5647,
+        footer: $z-max - 4647,
+        header: $z-max - 3647,
+        overlay: $z-max - 2647,
+        max: $z-max,
+    );
+
+    @if map-has-key($index-map, $val) {
+        $z-index: map.get($index-map, $val);
+
+        @return $z-index * $below;
+    }
+    @else {
+        @warn '@function z-index() | no key in $index-map: ' + $val;
+
+        @return 0;
+    }
+}

@@ -1,0 +1,12 @@
+:root {
+    --col-button: $col-background-button-default;
+    --col-button-disabled: $col-background-button-disabled;
+    --col-button-active: $col-background-button-active;
+    --col-button-bg-secondary: $col-background-main;
+    --shadow-button: $shadow-button;
+    --button-font-size: $font-size-m;
+
+    @media ( --l-up ) {
+        --button-font-size: $font-size-l;
+    }
+}

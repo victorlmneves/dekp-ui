@@ -1,0 +1,8 @@
+{
+    "col": {
+        "emphasized": {
+            "value": "{col.base.eyecatcher.general.value}",
+            "type": "color"
+        }
+    }
+}

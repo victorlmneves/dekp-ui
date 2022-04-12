@@ -1,0 +1,6 @@
+@use '@css-tokens' as *;
+
+@mixin base-font {
+    font: var(--font-size-m) / var(--font-lh-copy) $font-family-enbwdin;
+    color: var(--col-type-default);
+}

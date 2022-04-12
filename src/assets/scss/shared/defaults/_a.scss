@@ -1,0 +1,37 @@
+a {
+    color: var(--col-type-link);
+}
+
+a,
+a[href^='tel'] {
+    text-decoration: none;
+    touch-action: manipulation;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+
+    @media print {
+        &::after {
+            content: ' [URL: ' attr(href) ']';
+            font-style: italic;
+            word-break: break-word;
+        }
+    }
+}
+
+html:not(.mobile) a[href^='tel'] {
+    &,
+    &:hover,
+    &:focus,
+    &:link,
+    &:visited,
+    &:active {
+        text-decoration: none;
+        color: inherit;
+        pointer-events: none;
+        cursor: text;
+    }
+}

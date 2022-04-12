@@ -1,0 +1,8 @@
+@custom-media --s-up screen and (width >= $sizes-breakpoints-s);
+@custom-media --m-up screen and (width >= $sizes-breakpoints-m);
+@custom-media --l-up screen and (width >= $sizes-breakpoints-l);
+@custom-media --xl-up screen and (width >= $sizes-breakpoints-xl);
+@custom-media --s-down screen and (width < $sizes-breakpoints-s);
+@custom-media --m-down screen and (width < $sizes-breakpoints-m);
+@custom-media --l-down screen and (width < $sizes-breakpoints-l);
+@custom-media --xl-down screen and (width < $sizes-breakpoints-xl);

@@ -1,0 +1,17 @@
+.main-menu {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.main-menu__item:not(:last-child)::after {
+    content: '|';
+    margin: 0 .5rem;
+}
+
+.main-menu--center {
+    background: var(--col-type-default);
+    justify-content: center;
+    padding: .5rem;
+}

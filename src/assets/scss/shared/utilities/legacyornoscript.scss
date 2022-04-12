@@ -1,0 +1,8 @@
+.browser-hint {
+    display: none;
+
+    .legacy & {
+        display: flex;
+        pointer-events: auto;
+    }
+}

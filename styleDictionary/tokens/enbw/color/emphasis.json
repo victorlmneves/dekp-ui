@@ -1,0 +1,8 @@
+{
+    "col": {
+        "emphasized": {
+            "value": "{col.base.impulseorange.value}",
+            "type": "color"
+        }
+    }
+}

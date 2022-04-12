@@ -1,0 +1,7 @@
+﻿{
+    "borderRadius": {
+        "s": { "value": "8px", "type": "borderRadius" },
+        "m": { "value": "10px", "type": "borderRadius" },
+        "l": { "value": "12px", "type": "borderRadius" }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "col": {
+        "border": {
+            "default": {
+                "value": "{col.base.warmgrey.50.value}",
+                "type": "color"
+            },
+            "emphasized": {
+                "value": "{col.base.sunnyellow.50.value}",
+                "type": "color"
+            },
+            "brand": {
+                "value": "{col.brand.value}",
+                "type": "color"
+            },
+            "alert": {
+                "value": "{col.base.sunnyellow.50.value}",
+                "type": "color"
+            },
+            "warn": {
+                "value": "{col.base.tarocco.50.value}",
+                "type": "color"
+            },
+            "success": {
+                "value": "{col.base.lindgreen.50.value}",
+                "type": "color"
+            }
+        }
+    }
+}

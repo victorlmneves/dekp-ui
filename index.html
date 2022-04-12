@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preload" as="font" crossorigin href="assets/yello/fonts/MaderaWebforYelloRegular.woff2">
+    <link rel="preload" as="font" crossorigin href="assets/yello/fonts/MaderaWebforYelloMedium.woff2">
+    <link rel="preload" as="font" crossorigin href="assets/yello/fonts/MaderaWebforYelloBold.woff2">
+    <style>
+        @font-face {
+            font-family: Madera;
+            src: url(assets/yello/fonts/MaderaWebforYelloRegular.woff2) format("woff2"),
+                url(assets/yello/fonts/MaderaWebforYelloRegular.woff) format("woff");
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+    
+        @font-face {
+            font-family: Madera;
+            src: url(assets/yello/fonts/MaderaWebforYellomedium.woff2) format("woff2"),
+                url(assets/yello/fonts/MaderaWebforYellomedium.woff) format("woff");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+    
+        @font-face {
+            font-family: Madera;
+            src: url(assets/yello/fonts/MaderaWebforYelloBold.woff2) format("woff2"),
+                url(assets/yello/fonts/MaderaWebforYelloBold.woff) format("woff");
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        * {
+            font-family: 'Madera', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

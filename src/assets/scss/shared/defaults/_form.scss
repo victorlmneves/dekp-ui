@@ -1,0 +1,52 @@
+form {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='email'],
+input[type='date'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='search'],
+input[type='password'] {
+    appearance: none;
+    appearance: textfield;
+    font-family: inherit;
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+    display: none;
+}
+
+input[type='number'] {
+    appearance: textfield;
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+        appearance: none;
+        appearance: textfield;
+    }
+}
+
+textarea {
+    display: block;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+fieldset {
+    border: none;
+}

@@ -1,0 +1,20 @@
+.base-main {
+    display: block;
+    grid-area: main;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: var(--size-content-min);
+    max-width: var(--size-content-max);
+    transition: opacity .2s;
+
+    @media ( --xl-up ) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .legacy & {
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+@use '@css-tools' as *;
+@use '@css-components-brand/the-footer/' as fContainer;
+
+.base-footer {
+    grid-area: footer;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-width: var(--size-content-min);
+    max-width: var(--size-content-max);
+    margin: 0 auto;
+    min-height: 3em;
+    @include fContainer.container;
+
+    &::before {
+        display: block;
+        position: absolute;
+        z-index: z-index('xxs', -1);
+        width: 100vw;
+        inset: 0 calc(var(--sizes-page-margin-hor) * -1) 0
+            calc(var(--sizes-page-margin-hor) * -1);
+        content: '';
+        @include fContainer.container-pseudo;
+    }
+
+    @media ( --s-up ) {
+        &::before {
+            inset: 0 auto 0 50%;
+            transform: translateX(-50vw);
+        }
+    }
+
+    .legacy & {
+        display: none;
+    }
+}

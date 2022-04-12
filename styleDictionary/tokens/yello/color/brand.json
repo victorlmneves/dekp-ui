@@ -1,0 +1,8 @@
+{
+    "col": {
+        "brand": {
+            "value": "{col.base.yellow.value}",
+            "type": "color"
+        }
+    }
+}

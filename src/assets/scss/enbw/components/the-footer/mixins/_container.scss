@@ -1,0 +1,9 @@
+@use '@css-tokens' as *;
+
+@mixin container {
+    color: var(--col-type-inverse);
+}
+
+@mixin container-pseudo {
+    background-color: var(--col-bg-brand);
+}

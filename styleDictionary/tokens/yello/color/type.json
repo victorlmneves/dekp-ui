@@ -1,0 +1,68 @@
+{
+    "col": {
+        "type": {
+            "default": {
+                "value": "{col.base.black.value}",
+                "type": "color"
+            },
+            "inverse": {
+                "value": "{col.base.white.value}",
+                "type": "color"
+            },
+            "waiting": {
+                "value": "{col.base.grey.300.value}",
+                "type": "color"
+            },
+            "emphasized": {
+                "value": "{col.base.eyecatcher.general.value}",
+                "type": "color"
+            },
+            "brand": {
+                "value": "{col.brand.value}",
+                "type": "color"
+            },
+            "alert": {
+                "value": "{col.base.error.value}",
+                "type": "color"
+            },
+            "warn": {
+                "value": "{col.base.warn.value}",
+                "type": "color"
+            },
+            "success": {
+                "value": "{col.base.success.value}",
+                "type": "color"
+            },
+            "link": {
+                "default": {
+                    "value": "{col.base.peach.900.value}",
+                    "type": "color"
+                },
+                "hover": {
+                    "value": "{col.base.peach.900.value}",
+                    "type": "color"
+                },
+                "active": {
+                    "value": "{col.base.peach.900.value}",
+                    "type": "color"
+                },
+                "focus": {
+                    "value": "{col.base.peach.900.value}",
+                    "type": "color"
+                },
+                "visited": {
+                    "value": "{col.base.peach.600.value}",
+                    "type": "color"
+                },
+                "underline": {
+                    "value": "{col.base.azure.500.value}",
+                    "type": "color"
+                },
+                "outline": {
+                    "value": "{col.base.azure.500.value}",
+                    "type": "color"
+                }
+            }
+        }
+    }
+}

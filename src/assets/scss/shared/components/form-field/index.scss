@@ -1,0 +1,23 @@
+/**
+* following styles are just for better debugging while implementing form logic,
+* will be completely replaced when forms get their real styling
+*/
+.form-field {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-field__label {
+    display: block;
+    font-weight: 700;
+}
+
+.form-field__error {
+    display: block;
+    color: red;
+}
+
+.form-field__hint {
+    display: block;
+    color: lightgray;
+}

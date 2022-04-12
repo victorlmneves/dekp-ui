@@ -1,0 +1,24 @@
+@use '@css-tokens' as *;
+@use '@css-brand/settings/' as *;
+
+.base-body {
+    @include base-font;
+
+    display: block;
+    position: relative;
+    width: 100%;
+    min-width: var(--size-page-min);
+    max-width: 100vw;
+    padding: 0 var(--sizes-page-margin-hor);
+    background-color: var(--col-bg-main);
+    text-rendering: optimizeLegibility;
+
+    @supports (display: grid) {
+        display: grid;
+        grid-template: 1fr / 1fr;
+    }
+
+    .legacy {
+        pointer-events: none;
+    }
+}

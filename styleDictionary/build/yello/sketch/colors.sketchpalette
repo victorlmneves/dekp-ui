@@ -1,0 +1,622 @@
+{
+  "compatibleVersion": "2.0",
+  "pluginVersion": "2.2",
+  "colors": [
+    {
+      "name": "colBackgroundDefault",
+      "red": "0.95",
+      "green": "0.95",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundMain",
+      "red": "1.00",
+      "green": "1.00",
+      "blue": "1.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundDark",
+      "red": "0.00",
+      "green": "0.00",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundEmphasized",
+      "red": "1.00",
+      "green": "0.35",
+      "blue": "0.35",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundBrand",
+      "red": "1.00",
+      "green": "0.95",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundButtonDefault",
+      "red": "0.24",
+      "green": "0.39",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundButtonActive",
+      "red": "0.10",
+      "green": "0.27",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundButtonDisabled",
+      "red": "0.87",
+      "green": "0.90",
+      "blue": "0.99",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundAlert",
+      "red": "0.85",
+      "green": "0.12",
+      "blue": "0.16",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundWarn",
+      "red": "1.00",
+      "green": "0.51",
+      "blue": "0.17",
+      "alpha": 1
+    },
+    {
+      "name": "colBackgroundSuccess",
+      "red": "0.14",
+      "green": "0.63",
+      "blue": "0.28",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure100",
+      "red": "0.87",
+      "green": "0.90",
+      "blue": "0.99",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure200",
+      "red": "0.75",
+      "green": "0.80",
+      "blue": "0.98",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure300",
+      "red": "0.62",
+      "green": "0.69",
+      "blue": "0.98",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure400",
+      "red": "0.39",
+      "green": "0.51",
+      "blue": "0.96",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure500",
+      "red": "0.24",
+      "green": "0.39",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure600",
+      "red": "0.10",
+      "green": "0.27",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure700",
+      "red": "0.05",
+      "green": "0.22",
+      "blue": "0.84",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure800",
+      "red": "0.04",
+      "green": "0.18",
+      "blue": "0.70",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure900",
+      "red": "0.04",
+      "green": "0.15",
+      "blue": "0.56",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseAzure000",
+      "red": "0.95",
+      "green": "0.95",
+      "blue": "1.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach100",
+      "red": "1.00",
+      "green": "0.95",
+      "blue": "0.93",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach200",
+      "red": "0.99",
+      "green": "0.90",
+      "blue": "0.87",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach300",
+      "red": "0.99",
+      "green": "0.84",
+      "blue": "0.80",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach400",
+      "red": "0.99",
+      "green": "0.79",
+      "blue": "0.73",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach500",
+      "red": "0.98",
+      "green": "0.74",
+      "blue": "0.66",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach600",
+      "red": "0.98",
+      "green": "0.66",
+      "blue": "0.56",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach700",
+      "red": "0.98",
+      "green": "0.58",
+      "blue": "0.45",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach800",
+      "red": "0.97",
+      "green": "0.50",
+      "blue": "0.35",
+      "alpha": 1
+    },
+    {
+      "name": "colBasePeach900",
+      "red": "0.91",
+      "green": "0.34",
+      "blue": "0.10",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo100",
+      "red": "0.99",
+      "green": "0.98",
+      "blue": "0.97",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo200",
+      "red": "0.98",
+      "green": "0.96",
+      "blue": "0.93",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo300",
+      "red": "0.98",
+      "green": "0.95",
+      "blue": "0.91",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo400",
+      "red": "0.97",
+      "green": "0.93",
+      "blue": "0.88",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo500",
+      "red": "0.96",
+      "green": "0.92",
+      "blue": "0.85",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo600",
+      "red": "0.93",
+      "green": "0.85",
+      "blue": "0.73",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo700",
+      "red": "0.90",
+      "green": "0.78",
+      "blue": "0.61",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo800",
+      "red": "0.87",
+      "green": "0.72",
+      "blue": "0.49",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBamboo900",
+      "red": "0.80",
+      "green": "0.59",
+      "blue": "0.25",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint100",
+      "red": "0.95",
+      "green": "0.99",
+      "blue": "0.96",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint200",
+      "red": "0.91",
+      "green": "0.98",
+      "blue": "0.93",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint300",
+      "red": "0.86",
+      "green": "0.97",
+      "blue": "0.89",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint400",
+      "red": "0.81",
+      "green": "0.96",
+      "blue": "0.86",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint500",
+      "red": "0.76",
+      "green": "0.95",
+      "blue": "0.82",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint600",
+      "red": "0.62",
+      "green": "0.93",
+      "blue": "0.71",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint700",
+      "red": "0.40",
+      "green": "0.86",
+      "blue": "0.55",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint800",
+      "red": "0.27",
+      "green": "0.79",
+      "blue": "0.44",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseMint900",
+      "red": "0.11",
+      "green": "0.70",
+      "blue": "0.29",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey100",
+      "red": "0.95",
+      "green": "0.95",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey200",
+      "red": "0.86",
+      "green": "0.86",
+      "blue": "0.86",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey300",
+      "red": "0.73",
+      "green": "0.73",
+      "blue": "0.73",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey400",
+      "red": "0.59",
+      "green": "0.59",
+      "blue": "0.59",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey500",
+      "red": "0.46",
+      "green": "0.46",
+      "blue": "0.46",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey600",
+      "red": "0.34",
+      "green": "0.34",
+      "blue": "0.34",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey700",
+      "red": "0.20",
+      "green": "0.20",
+      "blue": "0.20",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseGrey800",
+      "red": "0.10",
+      "green": "0.10",
+      "blue": "0.10",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseYellow",
+      "red": "1.00",
+      "green": "0.95",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseBlack",
+      "red": "0.00",
+      "green": "0.00",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseWhite",
+      "red": "1.00",
+      "green": "1.00",
+      "blue": "1.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseSuccess",
+      "red": "0.14",
+      "green": "0.63",
+      "blue": "0.28",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseWarn",
+      "red": "1.00",
+      "green": "0.51",
+      "blue": "0.17",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseError",
+      "red": "0.85",
+      "green": "0.12",
+      "blue": "0.16",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseEyecatcherGeneral",
+      "red": "1.00",
+      "green": "0.35",
+      "blue": "0.35",
+      "alpha": 1
+    },
+    {
+      "name": "colBaseEyecatcherEco",
+      "red": "0.00",
+      "green": "0.78",
+      "blue": "0.69",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderDefault",
+      "red": "0.95",
+      "green": "0.95",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderMain",
+      "red": "1.00",
+      "green": "1.00",
+      "blue": "1.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderEmphasized",
+      "red": "1.00",
+      "green": "0.35",
+      "blue": "0.35",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderBrand",
+      "red": "1.00",
+      "green": "0.95",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderAlert",
+      "red": "0.85",
+      "green": "0.12",
+      "blue": "0.16",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderWarn",
+      "red": "1.00",
+      "green": "0.51",
+      "blue": "0.17",
+      "alpha": 1
+    },
+    {
+      "name": "colBorderSuccess",
+      "red": "0.14",
+      "green": "0.63",
+      "blue": "0.28",
+      "alpha": 1
+    },
+    {
+      "name": "colBrand",
+      "red": "1.00",
+      "green": "0.95",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colEmphasized",
+      "red": "1.00",
+      "green": "0.35",
+      "blue": "0.35",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeDefault",
+      "red": "0.00",
+      "green": "0.00",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeInverse",
+      "red": "1.00",
+      "green": "1.00",
+      "blue": "1.00",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeWaiting",
+      "red": "0.73",
+      "green": "0.73",
+      "blue": "0.73",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeEmphasized",
+      "red": "1.00",
+      "green": "0.35",
+      "blue": "0.35",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeBrand",
+      "red": "1.00",
+      "green": "0.95",
+      "blue": "0.00",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeAlert",
+      "red": "0.85",
+      "green": "0.12",
+      "blue": "0.16",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeWarn",
+      "red": "1.00",
+      "green": "0.51",
+      "blue": "0.17",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeSuccess",
+      "red": "0.14",
+      "green": "0.63",
+      "blue": "0.28",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkDefault",
+      "red": "0.91",
+      "green": "0.34",
+      "blue": "0.10",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkHover",
+      "red": "0.91",
+      "green": "0.34",
+      "blue": "0.10",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkActive",
+      "red": "0.91",
+      "green": "0.34",
+      "blue": "0.10",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkFocus",
+      "red": "0.91",
+      "green": "0.34",
+      "blue": "0.10",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkVisited",
+      "red": "0.98",
+      "green": "0.66",
+      "blue": "0.56",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkUnderline",
+      "red": "0.24",
+      "green": "0.39",
+      "blue": "0.95",
+      "alpha": 1
+    },
+    {
+      "name": "colTypeLinkOutline",
+      "red": "0.24",
+      "green": "0.39",
+      "blue": "0.95",
+      "alpha": 1
+    }
+  ]
+}

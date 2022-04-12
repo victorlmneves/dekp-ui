@@ -1,0 +1,44 @@
+@use '@css-tokens' as *;
+
+:root {
+    --col-brand: $col-brand;
+    --col-emphasized: $col-emphasized;
+    --col-type-default: $col-type-default;
+    --col-type-inverse: $col-type-inverse;
+    --col-type-link: $col-type-link-default;
+    --col-type-link-visited: $col-type-link-visited;
+    --col-type-link-focus: $col-type-link-focus;
+    --col-type-link-active: $col-type-link-active;
+    --col-type-link-hover: $col-type-link-hover;
+    --col-type-link-underline: $col-type-link-underline;
+    --col-type-link-outline: $col-type-link-outline;
+    --col-bg-main: $col-background-main;
+    --col-bg-dark: $col-background-dark;
+    --col-bg-default: $col-background-default;
+    --col-bg-brand: $col-background-brand;
+    --font-size-m: $font-size-m;
+    --font-lh-copy: $font-lh-copy;
+    --size-content-max: $sizes-content-max;
+    --size-content-min: $sizes-content-min;
+    --sizes-spacings-xxl: $sizes-spacings-s-xxl;
+    --sizes-spacings-xl: $sizes-spacings-s-xl;
+    --sizes-spacings-l: $sizes-spacings-s-l;
+    --sizes-spacings-m: $sizes-spacings-s-m;
+    --sizes-spacings-s: $sizes-spacings-s-s;
+    --sizes-spacings-xs: $sizes-spacings-s-xs;
+    --sizes-spacings-xxs: $sizes-spacings-s-xxs;
+    --sizes-page-margin-hor: var(--sizes-spacings-m);
+    --size-page-min: $sizes-page-min;
+}
+
+@media ( --lg-up ) {
+    :root {
+        --sizes-spacings-xxl: $sizes-spacings-l-xxl;
+        --sizes-spacings-xl: $sizes-spacings-l-xl;
+        --sizes-spacings-l: $sizes-spacings-l-l;
+        --sizes-spacings-m: $sizes-spacings-l-m;
+        --sizes-spacings-s: $sizes-spacings-l-s;
+        --sizes-spacings-xs: $sizes-spacings-l-xs;
+        --sizes-spacings-xxs: $sizes-spacings-l-xxs;
+    }
+}

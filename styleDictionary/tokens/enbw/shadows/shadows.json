@@ -1,0 +1,8 @@
+{
+    "shadow": {
+        "button": {
+            "type": "shadow",
+            "value": "{col.base.black.value} 0 0 8px"
+        }
+    }
+}

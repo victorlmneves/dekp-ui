@@ -1,0 +1,13 @@
+@use '@css-tools' as *;
+
+.overlay {
+    display: flex;
+    position: fixed;
+    inset: 0 0 0 0;
+    background: var(--col-bg-dark);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--col-type-inverse);
+    z-index: z-index('overlay');
+}
