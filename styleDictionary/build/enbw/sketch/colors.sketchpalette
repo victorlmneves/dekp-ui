@@ -39,9 +39,9 @@
     },
     {
       "name": "colBackgroundButtonDefault",
-      "red": "0.00",
-      "green": "0.00",
-      "blue": "0.60",
+      "red": "1.00",
+      "green": "0.56",
+      "blue": "0.06",
       "alpha": 1
     },
     {

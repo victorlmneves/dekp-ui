@@ -23,7 +23,7 @@
             },
             "button": {
                 "default": {
-                    "value": "{col.brand.value}",
+                    "value": "{col.base.impulseorange}",
                     "type": "color"
                 },
                 "active": {
