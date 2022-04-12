@@ -1,4 +1,6 @@
 module.exports = () => {
+    const brand = process.env.VITE_APP_BRAND;
+
     return {
         ident: 'postcss',
         syntax: 'postcss-scss',
@@ -8,7 +10,7 @@ module.exports = () => {
             'postcss-simple-vars': {
                 variables: () => {
                     /* eslint-disable */
-                    const vars = require(`${__dirname}/styleDictionary/build/yello/postcss/tokens.json`);
+                    const vars = require(`${__dirname}/styleDictionary/build/${brand}/postcss/tokens.json`);
                     /* eslint-enable */
                     return vars;
                 },
@@ -27,7 +29,7 @@ module.exports = () => {
                 },
             },
             'postcss-inline-svg': {
-                paths: [`./src/assets/yello/images`],
+                paths: [`./src/assets/${brand}/images`],
                 encode: function (code) {
                     return code
                         .replace(/%/g, '%25')
