@@ -4,8 +4,9 @@ const Color = require('tinycolor2');
 /* eslint-enable */
 
 module.exports = (() => {
-    const tokensPath = path.resolve(__dirname, `tokens/yello`);
-    const buildPath = path.resolve(__dirname, `build/yello`);
+    const brand = process.env.brand;
+    const tokensPath = path.resolve(__dirname, `tokens/${brand}`);
+    const buildPath = path.resolve(__dirname, `build/${brand}`);
 
     return {
         source: [`${tokensPath}/**/*.js*`],
